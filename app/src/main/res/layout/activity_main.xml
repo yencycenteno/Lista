@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30sp"
+        android:background="#3F51B5"
+        android:onClick="onClick"
+        android:text="Ver Lista"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30sp"
+        android:background="#3F51B5"
+        android:onClick="onClick"
+        android:text="Agregar Nombre"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30sp"
+        android:background="#3F51B5"
+        android:onClick="onClick"
+        android:text="Mis Datos"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
